@@ -1,0 +1,4 @@
+product,month,median_demand,demand_growth,median_inventory_days
+Paneer,Jan,150,0.05,2
+Curd,Jan,300,0.02,1
+# DEMO DATA: Anonymized benchmark data placeholder.

@@ -1,0 +1,22 @@
+[
+  {
+    "scheme_name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "official_source": "KVIC",
+    "last_verified_date": "2023-09-01",
+    "enterprise_criteria": ["Micro", "Small"],
+    "location_criteria": ["Rural", "Urban"],
+    "business_activity_criteria": ["Manufacturing", "Service"],
+    "funding_purpose": "New Enterprise Setup",
+    "required_documents": ["Aadhaar", "Project Report", "Education Certificate"]
+  },
+  {
+    "scheme_name": "Dairy Entrepreneurship Development Scheme (DEDS)",
+    "official_source": "NABARD",
+    "last_verified_date": "2023-08-15",
+    "enterprise_criteria": ["Micro", "Small", "Medium"],
+    "location_criteria": ["Rural"],
+    "business_activity_criteria": ["Dairy Processing", "Milk Production"],
+    "funding_purpose": "Cold Storage, Processing Unit",
+    "required_documents": ["Land Record", "Bank Detail", "Quotation"]
+  }
+]

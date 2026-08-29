@@ -1,0 +1,24 @@
+{
+  "business_id": "DEMO-001",
+  "business_name": "Kopargaon Dairy Foods",
+  "location": "Kopargaon, Maharashtra, India",
+  "enterprise_type": "Micro",
+  "location_type": "Rural",
+  "business_activity": "Dairy Processing",
+  "products": ["Milk", "Curd", "Paneer", "Buttermilk"],
+  "primary_raw_material": "Raw Milk",
+  "demo_note": "This is a SIMULATED demo business profile. All financial figures are DEMO only.",
+  "demo_scenario": {
+    "current_milk_stock_litres": 1500,
+    "forecast_daily_milk_use_litres": 500,
+    "supplier_lead_time_days": 3,
+    "current_paneer_stock_kg": 80,
+    "open_orders": [
+      {"product": "Paneer", "qty_kg": 500, "selling_price": 350, "delivery_days": 4}
+    ],
+    "recent_milk_price_per_litre": 48.0,
+    "milk_price_30d_avg": 45.5,
+    "sales_today_inr": 84500,
+    "orders_pending": 4
+  }
+}

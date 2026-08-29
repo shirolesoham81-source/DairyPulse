@@ -1,0 +1,78 @@
+{
+  "_comment": "DairyPulse Business Rules Configuration — DEMO VALUES ONLY. Calibrate with real MSME data before production use.",
+  "products": {
+    "Milk": {
+      "id": "PRD-MLK",
+      "unit": "L",
+      "selling_price_per_unit": 60.0,
+      "production_capacity_per_day": 500,
+      "conversion_ratio": 1.0,
+      "wastage_percent": 1.0
+    },
+    "Curd": {
+      "id": "PRD-CRD",
+      "unit": "Kg",
+      "selling_price_per_unit": 80.0,
+      "production_capacity_per_day": 200,
+      "conversion_ratio": 1.1,
+      "wastage_percent": 1.5
+    },
+    "Paneer": {
+      "id": "PRD-PNR",
+      "unit": "Kg",
+      "selling_price_per_unit": 350.0,
+      "production_capacity_per_day": 100,
+      "conversion_ratio": 5.5,
+      "wastage_percent": 2.0
+    },
+    "Buttermilk": {
+      "id": "PRD-BMLK",
+      "unit": "L",
+      "selling_price_per_unit": 30.0,
+      "production_capacity_per_day": 300,
+      "conversion_ratio": 0.5,
+      "wastage_percent": 0.5
+    }
+  },
+  "raw_materials": {
+    "Raw Milk": {
+      "id": "MAT-RMLK",
+      "unit": "L",
+      "baseline_procurement_price": 45.0,
+      "safety_stock_days": 2,
+      "reorder_level_litres": 500,
+      "minimum_order_qty_litres": 200
+    }
+  },
+  "lead_times": {
+    "supplier_default_days": 3,
+    "order_fulfillment_days": 1
+  },
+  "inventory_thresholds": {
+    "safety_stock_days": 2,
+    "overstock_cover_multiplier": 3,
+    "low_cover_days": 1
+  },
+  "price_risk_thresholds": {
+    "increasing_pct_threshold": 3.0,
+    "decreasing_pct_threshold": -3.0,
+    "high_volatility_std": 3.0
+  },
+  "margin_thresholds": {
+    "minimum_acceptable_margin_pct": 0.0,
+    "target_margin_pct": 15.0
+  },
+  "anomaly_thresholds": {
+    "sigma_threshold": 2.0,
+    "rolling_window_days": 7
+  },
+  "credit_readiness_weights": {
+    "sales_consistency": 0.25,
+    "order_fulfillment": 0.20,
+    "business_activity": 0.15,
+    "inventory_discipline": 0.15,
+    "growth_trend": 0.15,
+    "record_completeness": 0.10
+  },
+  "demo_assumptions": "All values are DEMO placeholders. Calibrate with real MSME data before production use."
+}
